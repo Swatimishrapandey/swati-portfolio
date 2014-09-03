@@ -1,0 +1,136 @@
+/* CSS Document */
+body{
+	text-align:center;
+	font-family:Helvetica, Arial, sans-serif;
+	font-size:100%
+	}
+a{
+	text-decoration:none;
+	/*color:white*/
+	}
+a:hover{
+	text-decoration:underline;
+	}
+	
+a:selected{
+	font-weight:bold;
+	}
+p{
+color:#2A2A2A;
+line-height:17px;
+	}
+	
+h2{
+	color:#1B1B1B;
+	font-size:20px;
+	}	
+li{
+	list-style:none;
+	
+	}
+.container{
+	margin:auto;
+	width:922px;
+	text-align:left;
+	background-color:#FDFDFD;
+	}
+#header1{
+	background-color:#000000;
+	overflow:hidden;
+	height:30px;
+	margin:0 0 0 0;
+	padding-bottom:6px;
+	padding-left:450px;
+		
+	}
+	
+#header1 li{
+	float:left;
+	/*line-height:40px;*/
+	padding-left:2px;
+	text-height:12px;
+	text-shadow:#666;
+	margin-top:-8px;
+	}
+#header1 li a{
+	color:white;
+	border-right:1px solid;
+	padding: 0 1em;}
+
+#header2{
+	margin:auto;
+	background-image:url(images/header2.3.jpg);
+	height:300px;
+	background-repeat: no-repeat;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+	
+	}
+#header2 h2{
+	margin-top:-11px;
+}	
+.body{
+	height:360px;
+	border-top:#999 2px thick;
+	}
+.contact_me_body p{
+text-align:center;
+font-size:20px;
+font-family:italic;
+color:#c00;}	
+ .home_left_body{
+	float:left;
+	width:350px;
+
+	}
+	.left_body{
+	float:left;
+	width:461px;
+
+	}
+	.home_right_body{
+		float:left;
+		width:572px;
+		}
+	.home_left_body p{
+	font-family: italic;
+	font-size:25px;
+	line-height:20px; 
+	}
+		.right_body{
+		float:left;
+		width:461px;
+		}
+		.right_body_img img{ height: 180px;
+		width:110px;
+		float: right;
+		margin-right:10px;
+		margin-left:-5px;
+		padding:5px;
+		border: 2px solid #C00;
+		
+			}
+			.gallery_body{
+				width:922px;
+				height:10px;
+				padding-top:-5px;
+				
+				}
+			.gallery_body_container{
+			height:340px;
+			margin-top:-10px;
+			padding-left:0px;
+			}
+			.body h3{
+				text-align:center;}
+				.AboutMeRightBody img{
+					border:#FF0000,2px solid;
+					height:360px;
+					width:380px;
+					float:right;} 
+	.footer{
+		height:70px;
+		background-color:#FB1711;
+		}	
+		
